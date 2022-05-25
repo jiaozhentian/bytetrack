@@ -113,6 +113,7 @@ if __name__ == '__main__':
     image_width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
     video_fps = cap.get(cv2.CAP_PROP_FPS)
     video_length = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    # test_size is a tuple of (width, height), which is the size of the output size of the model for inference
     test_size = (1080, 1920)
 
     video_writer = cv2.VideoWriter('./data/video/result.mp4', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), video_fps, (int(image_width), int(image_height)))
