@@ -20,6 +20,14 @@ Average person number per frame: 12
 
 Algorithm average speed: 6.5ms
 
+## Warning
+
+Bytetrack 关键算法部分使用了原作者的代码，但原作者的代码中将tlwh的list中的顺序写错了，但源代码逻辑却能自洽，能够正常运行，类似于C语言在开始的部分写入了#define TRUE FALSE。不要试图去修改这一bug，否则出现任何问题不要联系我。
+
 ## References
 
 The source code link [ifzhang/ByteTrack: ByteTrack: Multi-Object Tracking by Associating Every Detection Box (github.com)](https://github.com/ifzhang/ByteTrack)
+
+## Contact
+
+QQ 744483644
